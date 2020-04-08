@@ -20,7 +20,7 @@ const data = [
   const interestCalculator = (data) => {
   
   for (x in data){
-  if ((data[x].Principal >= 2500) && (data[x].time > 1) &&                 (data[x].time < 3)){
+  if ((data[x].Principal >= 2500) && (data[x].time > 1) && (data[x].time < 3)){
   data[x].rate = 3;
   }
   else if ((data[x].Principal >= 2500) && (data[x].time >= 3)){
