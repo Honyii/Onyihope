@@ -21,5 +21,5 @@ const myFunc = num => {
   }
   return resultArr;
 }
-
+console.log(myFunc(100));
 console.log(myFunc(10));
